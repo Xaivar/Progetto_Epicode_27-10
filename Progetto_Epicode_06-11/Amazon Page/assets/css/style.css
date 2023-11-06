@@ -107,3 +107,38 @@ body{
     color: #0A5A63;
 }
 
+#cheer > img {
+    text-align: center;
+    width: 112em;
+
+}
+
+#cheer > p {
+    font-weight: bold;
+    text-align: center;
+}
+
+#cheer a {
+    text-decoration: none;
+    color: #0A5A63;
+}
+
+footer {
+    background-color: #222F3F;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer > p a {
+    color: white;
+    background-color: #364759;
+    display: block;
+    padding: 1em;
+    font-size: medium;
+    text-align: center;
+}
+
+#futer {
+    text-align: center;
+}
