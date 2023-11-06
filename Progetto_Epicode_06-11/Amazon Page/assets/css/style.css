@@ -1,0 +1,109 @@
+
+/*header*/
+ul>li {
+    list-style-type: none;
+    display: inline;
+    padding: 0.5em;
+    color: white;
+    padding-left: 2em;
+}
+
+ul {
+    background-color: #364759;
+    padding: 0.6em;
+}
+
+header {
+    background-color: #222F3F;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 10%;
+    padding-top: 0.5em;
+    padding-left: 3em;
+}
+li > a {
+    color: white;
+    text-decoration: none;
+}
+/*Body*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #E9EDEE;
+}
+
+#shop {
+    display: block;
+    text-align: center;
+    background-color: #F56600;
+    color: white;
+    padding: 0.6em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 2em;
+    font-weight: 200;
+}
+
+#holiday_padre {
+    text-align: center;
+    background-image: url("../images/bg-image.png");
+    background-size: auto;
+    color: white;
+    margin-left: 2em;
+    margin-right: 4em;
+}
+
+#holiday_figlio {
+    font-size: 2.8em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+#holiday_figlio2 {
+    font-weight: bold;
+    padding-bottom: 3em;
+}
+
+#imgcentrali {
+    background-color: white;
+   /* text-align: center;*/
+    margin-right: 4em;
+    font-weight: bold;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+}
+
+#link_centrali {
+    color: #0F5A60;
+    text-decoration: none;
+    padding-top: 0.4em;
+    padding-left: 0.4em;
+}
+ #imgcentrali >img {
+    width: 26em;
+    height: 26em; 
+    margin: 1em;
+    padding: 0;
+    box-shadow: 5px 5px 3px 1px grey;
+    border-radius: 10%;
+}
+
+#visore_vr > img {
+    text-align: center;
+    width: 112em;
+
+}
+
+#visore_vr > p {
+    font-weight: bold;
+    text-align: center;
+}
+
+#visore_vr a {
+    text-decoration: none;
+    color: #0A5A63;
+}
+
