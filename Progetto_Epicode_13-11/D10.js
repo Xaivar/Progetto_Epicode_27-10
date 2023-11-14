@@ -524,26 +524,50 @@ ciclo()*/
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
 
-function ciclo() {
+function bgRed() {
   let link = document.querySelectorAll("a")
-  link.forEach(i => {
-    link.style.backgroundColor = 'red';
-  })
-
+  link.forEach(link => {
+    link.style.backgroundColor = "red";  
+  });
 }
-ciclo();
+bgRed()
 
 /* ESERCIZIO 24
   Scrivi una funzione per aggiungere un nuovo elemento alla lista non ordinata con id "myList".
 */
 
+function newLi() {
+  let ul = document.querySelector("ul")
+  let listItem = document.createElement("li")
+  listItem.innerText = "Nuovo elemento della lista"
+  listItem.setAttribute("id", "myList") 
+  ul.appendChild(listItem)
+  console.log(listItem);
+}
+newLi()
+
 /* ESERCIZIO 25
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
 
+function removeListItem() {
+  let li = document.querySelector("#myList")
+  li.remove()
+}
+removeListItem()
+
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
 */
+
+function test() {
+  let tr = document.querySelectorAll("tr")
+  tr.forEach(riga => {
+    riga.setAttribute("class", "test")    
+  });
+  console.dir(tr);
+}
+test()
 
 // [EXTRA] JS Avanzato
 
