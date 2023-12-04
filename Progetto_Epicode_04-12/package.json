@@ -1,0 +1,15 @@
+{
+  "name": "progetto_epicode_04-12",
+  "version": "1.0.0",
+  "description": "Questo è il test settimanale",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Arcangelo Gifuni",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
